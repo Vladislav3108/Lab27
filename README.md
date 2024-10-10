@@ -91,9 +91,8 @@ graph TD
     L --> F{digit1 != digit2 и digit1 != digit3 и digit1 != digit4 и digit2 != digit3 и digit2 != digit4 и digit3 !=      
     digit4}
     F -- Да --> G{/Вывод: YES/}
-    F -- Нет --> H{/Вывод: NO/}
+    F -- Нет --> D
     G --> Z
-    H --> Z
     D --> Z([Конец])
 
 ```
