@@ -88,8 +88,7 @@ graph TD
     I --> J["digit2 = (number / 100) % 10"]
     J --> K["digit3 = (number / 10) % 10"]
     K --> L["digit4 = number % 10"]
-    L --> F{digit1 != digit2 и digit1 != digit3 и digit1 != digit4 и digit2 != digit3 и digit2 != digit4 и digit3 !=      
-    digit4}
+    L --> F{digit1 != digit2 и digit1 != digit3 и digit1 != digit4 и digit2 != digit3 и digit2 != digit4 и digit3 != digit4}
     F -- Да --> G[/Вывод: YES/]
     F -- Нет --> D
     G --> Z
